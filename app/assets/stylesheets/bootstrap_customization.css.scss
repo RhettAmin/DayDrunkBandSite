@@ -1,12 +1,25 @@
+//background 
+$body-bg:							#34495e;
+$text-color: 						#ecf0f1;
 
-$body-bg:		#34495e;
-$text-color: #ecf0f1;
 
-$navbar-default-bg: #2c3e50;
-
-$navbar-inverse-brand-hover-color: #c0392b;
-
-$navbar-inverse-link-color: #ecf0f1;
-$navbar-inverse-link-hover-color: #c0392b;
+/*
+	NAVBAR
+*/
+$navbar-default-bg: 				#2c3e50;
+//brand
+$navbar-inverse-brand-color: 		#c0392b;
+$navbar-inverse-brand-hover-color: 	#c0392b;
+//navbar
+$navbar-inverse-link-color: 		#ecf0f1;
+$navbar-inverse-link-hover-color: 	#c0392b;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
